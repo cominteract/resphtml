@@ -1,0 +1,17 @@
+  <resources xmlns:android="http://schemas.android.com/apk/res/android">
+        <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+            <item name="android:windowTitleStyle">@style/PauseDialogTitle</item>
+        </style>
+
+        <style name="PauseDialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+            <item name="android:gravity">center_horizontal</item>
+            <item name="android:textColor">#d17d3f</item>
+            
+        </style>
+        <style name="DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textColor">#d17d3f</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+        </style>
+    </resources>

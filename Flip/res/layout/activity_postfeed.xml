@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Postfeed" >
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#a55"
+        android:background="#445"
+        android:text="Send Feedback" />
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#688"
+        android:text="Title:" />
+    
+     <EditText
+        android:id="@+id/apptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="e.g Best app ever" />
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#688"
+        android:text="Feedback:" />
+    
+     <EditText
+        android:id="@+id/appfeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:lines="5"
+        android:hint="e.g More features please" />
+</LinearLayout>
+
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#688"
+        android:text="Name:" />
+    
+     <EditText
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="e.g John Smith" />
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#688"
+        android:text="Email:" />
+    
+     <EditText
+        android:id="@+id/appemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="e.g johnsmith31@yahoo.com" />
+</LinearLayout>
+     <Button
+        android:background="#944" 
+        android:textColor="#2ff"
+        android:id="@+id/sendfeed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback" />
+</LinearLayout>

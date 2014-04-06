@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/customdialog"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:padding="10dp"
+android:background="#357"
+>
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+<ImageView
+android:layout_width="0dp"
+android:layout_height="60dp"
+android:layout_weight="0.5"
+android:src="@drawable/dollars"
+/>
+<ImageView
+android:layout_width="0dp"
+android:layout_height="60dp"
+android:layout_weight="0.5"
+android:src="@drawable/dollars"
+/>
+</LinearLayout>
+<TextView
+android:id="@+id/dialogtextview"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize = "25sp"
+android:text = "Entering choices.."
+android:textColor="#f22"
+/>
+<EditText
+android:id="@+id/choice1edit"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#CCC"
+android:padding="5dp"
+android:layout_margin="5dp"
+android:hint="Edit 1st choice"
+/>
+
+<EditText
+android:id="@+id/choice2edit"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#CCC"
+android:padding="5dp"
+android:layout_margin="5dp"
+android:hint="Edit 2nd choice"
+/>
+<Button
+android:id="@+id/dialogupdate"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Add choices"
+android:textColor="#00ff48"
+/>
+<Button
+android:id="@+id/dialogdismiss"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Back"
+android:textColor="#ff2248"
+/>
+</LinearLayout>

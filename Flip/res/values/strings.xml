@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="rounds_prompt">Choose # of rounds</string>
+
+    <string-array name="roundsnumber">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+    </string-array>
+
+    <string name="app_name">Flip Coin</string>
+    <string name="Choice1">Choice 1:</string>
+    <string name="Choice2">Choice 2:</string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="Reminder">Add Reminder</string>
+    <string name="DateClick">onDateClicked</string>
+    <string name="ReminderClick">onReminderClicked</string>
+    <string name="Timeclick">onTimeClicked</string>
+    <string name="title_activity_task_reminder">Coin Flip Reminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_flip_menu_list">Menu List</string>
+    <string name="about_FlipCoin">FlipCoin is an app that emulates the coin tossing phenomenon that we all grew up with. With FlipCoin you will not only be using it for fun and games as we are used to. You can also use it to make decisions in everyday life. 
+Have you ever had a day when you simply can\'t decide whether you want to go to a party or go to work?\n
+Go ahead flip a coin.
+Ever wanted to ask somebody out but too afraid to take the chance?\n
+Let FlipCoin decide your fate!\n
+Like this.
+Do you get to say stupid lines or let the girl pass by?\n
+Well see for yourself.
+Flip a Coin.
+There are tons of ways to enjoy you can also use it. \n if you want a quick bet with someone using the latest craze about Bitcoin\n You can simply put your bets \n Just name your price and let the coin decide.</string>
+    <string name="title_activity_note">Note</string>
+    <string name="howto_FlipCoin">FlipCoin:How to use\n 
+Normal\n
+1.	To use FlipCoin normally just proceed to add two different choices. Choices should be definitive and should at least contain 6 characters or more.\n
+2.	After adding the choices/bets click flip to simulate the coin toss.\n
+Rounds\n
+1.	To use FlipCoin with rounds proceed to add choices first. After adding the choices you can add rounds depending on how many times you want to flip the coin by touching the “Rounds”. (Adding rounds provides a more thrilling way of representing choice and a strong testament of how important the decision/bet is going to be.\n
+2.	After adding choices/bets and rounds click flip to simulate the coin toss.\n</string>
+    <string name="reminder_FlipCoin">FlipCoin:Reminder\nThe Choice Reminder enables users to schedule a coin toss that will help you decide on that day. Engage the thrill of randomizing your everyday lives by creating a list of reminders of choices that you are about to make that day.</string>
+    <string name="widget_FlipCoin">FlipCoin:Widget
+We can sometimes be busy about other things that we tend to forget about things that could help us in on the spur of the moment decisions. Sometimes we just need a little luck and with FlipCoin, You can widgetize FlipCoin to make decisions based on a corresponding reminder that you have to set yourself about decisions that has to be made. </string>
+    <string name="sendfeed_FlipCoin">FlipCoin:SendFeedBack
+No Surveys, No Ads. Just say a little message. a little hi, hello. your app is excellent\n OR\n
+you suck your app sucks we don\'t like you give us our money back (and why???? of course).\n
+that\'s it you have just provided as a chance to improve our app and we would be very grateful and to the best of our abilities. We will comply to keep the show running.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_change_coin">ChangeCoin</string>
+    <string name="title_activity_splash">Splash</string>
+
+</resources>

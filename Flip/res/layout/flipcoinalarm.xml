@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  
+    android:background="#357"     
+     >
+<LinearLayout    
+  	 android:layout_marginTop="20dp"
+  	 android:orientation="horizontal"
+  	 android:padding="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="150dp"  
+     android:id="@+id/nameLayout">
+      <TextView
+
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:textSize="21sp"
+          android:textColor = "#fff"
+          android:text="@string/Choice1"/>    
+      <EditText
+          android:id="@+id/choice1"
+          android:hint="Enter choice "
+          android:textSize="21sp"
+          android:textColor = "#333"                
+          android:layout_height="45dp"          
+          android:layout_width="150dp" />     
+    </LinearLayout>    
+<LinearLayout 
+    android:padding="10dp" 
+   	android:layout_marginTop="20dp"  
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"  
+    android:id="@+id/descLayout"
+    android:layout_below="@id/nameLayout">
+      <TextView
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:textSize="21sp"
+          android:textColor = "#fff"
+          android:text="@string/Choice2"/>    
+      <EditText
+          android:id="@+id/choice2"
+          android:hint="Enter next choice"    
+          android:textSize="21sp" 
+          android:textColor = "#333"       
+          android:layout_height="45dp"           
+          android:layout_width="200dp" />     
+</LinearLayout>      
+<LinearLayout 
+   android:layout_marginTop="20dp"
+   android:layout_width="fill_parent"
+   android:layout_height="150dp"
+   android:orientation="horizontal"
+   android:layout_below="@id/descLayout"   
+   android:gravity="center_horizontal"
+   >     
+<Button 
+    android:id="@+id/dateButton"
+    android:layout_margin="2dp"
+    android:background="#345"
+    android:layout_weight="0.20"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textColor="#Ae6"
+    android:text="@string/Date" 
+    android:onClick="@string/DateClick"
+    />  
+     <Button 
+    android:id="@+id/timeButton"
+    android:layout_weight= "0.20"
+    android:layout_margin="2dp"
+    android:layout_width = "0dp"
+    android:layout_height ="wrap_content"
+    android:textColor="#Ae6"
+    android:background="#345"
+    android:text="@string/Time"
+    android:onClick="@string/Timeclick"/>
+     <Button 
+    android:id="@+id/reminderButton"
+    android:layout_margin="2dp"
+    android:textColor="#Ae6"
+    android:background="#345"
+    android:layout_weight = "0.30"
+  	android:layout_width = "0dp"
+    android:layout_height="wrap_content"
+    android:text="@string/Reminder"
+    android:onClick="@string/ReminderClick"/>   
+</LinearLayout>
+</LinearLayout>

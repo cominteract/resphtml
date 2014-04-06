@@ -1,0 +1,233 @@
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+    
+    android:padding="15dp"
+   
+    
+    android:background="#F22"
+    
+    >
+
+   
+<LinearLayout 
+    
+    android:id = "@+id/linear1"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="1000dp"  
+   
+    android:padding = "2dp"
+    
+
+    
+    android:layout_centerHorizontal ="true"
+
+    android:orientation = "vertical"
+   
+    android:background="#008848"
+
+    android:gravity = "center">
+    
+    
+     <LinearLayout
+	
+		android:layout_gravity ="center"
+		
+        android:id="@+id/layingout"
+        
+        android:background="#345"
+
+		android:orientation="horizontal"
+		
+        android:layout_width="fill_parent"
+
+        android:layout_height="0dp"
+        
+        android:layout_weight=".15"
+
+        android:layout_margin="3dip"
+
+>
+
+		<View
+		android:id="@+id/clickmenu"  
+		android:layout_gravity="left"  
+	    android:layout_width="50dp"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/threelines" />
+		
+		
+		<View
+		android:id="@+id/settingmenu"    
+		android:layout_gravity="right"
+	    android:layout_width="50dp"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/settingmenuicon" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+
+    	android:layout_height="0dp"
+    	
+    	android:layout_weight=".2"
+    	
+    	android:orientation="horizontal"
+    	
+    	  >
+    <Button
+
+        
+        android:id="@+id/addchoice"
+        
+        android:layout_width="fill_parent"
+        
+        android:layout_height="fill_parent"
+        
+        android:text="Add Choices"
+        
+        android:textSize="23sp"
+        
+        android:background="#fff"
+        
+        />	
+    
+</LinearLayout>  
+
+    <TextView
+
+		android:layout_gravity ="center"
+		
+        android:id="@+id/textView1"
+        
+
+		
+		
+        android:layout_width="wrap_content"
+
+        android:layout_height="0dp"
+        
+        android:layout_weight=".15"
+
+        android:text="Flip Coin"
+
+        android:textColor="#ffffff"
+
+        android:textSize="22sp"
+
+        android:layout_margin="3dip"
+
+        android:textStyle="bold" />
+
+    <ImageView
+
+        android:id="@+id/imageView1"
+        
+        android:contentDescription="coin"
+
+        android:layout_width="400dp"
+
+        android:layout_height="0dp"
+        
+        android:layout_weight="0.6"
+        
+
+        android:src="@drawable/smileyback" />
+<LinearLayout 
+    	android:layout_weight=".25"
+    	android:layout_width="wrap_content"
+		android:orientation="horizontal"
+        android:layout_height="0dp" >
+    <Button
+
+       android:id="@+id/flip"
+
+       android:layout_width="0dp"
+
+       android:layout_height="wrap_content"
+       
+       android:layout_weight=".5"
+       
+       android:background="#444"
+
+       android:layout_margin="5dip"
+       
+       android:textColor="#e68"
+       
+       android:textSize="22sp"
+
+       android:padding="1dp"
+
+       android:text="Flip!" />
+    
+     <Button
+
+       android:id="@+id/addrounds"
+
+       android:layout_width="0dp"
+
+       android:layout_height="wrap_content"
+       
+       android:layout_weight=".5"
+       
+       android:background="#444"
+
+       android:layout_margin="5dip"
+       
+       android:textColor="#e68"
+       
+       android:textSize="22sp"
+
+       android:padding="1dp"
+
+       android:text="Add Rounds" />
+    </LinearLayout>
+ <TextView
+
+        android:id="@+id/txtchoice1"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="0dp"
+        
+        android:layout_weight=".15"
+
+        android:text="First Choice"
+        
+        android:padding="3dp"
+        
+
+        android:textColor="#ffffff"
+
+        android:textSize="22sp"
+
+        android:textStyle="bold" />
+    
+      <TextView
+
+        android:id="@+id/txtchoice2"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="0dp"
+        
+        android:layout_weight=".15"
+
+        android:text="Second Choice"
+
+        android:padding="3dp"
+
+        android:textColor="#ffffff"
+
+        android:textSize="22sp"
+
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+</RelativeLayout>

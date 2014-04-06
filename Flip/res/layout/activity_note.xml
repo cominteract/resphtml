@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#357"
+    tools:context=".Note" >
+
+
+        <TextView
+        android:id = "@+id/titletxt"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:text="About"/>
+    <TextView
+        android:id = "@+id/desctxt"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_FlipCoin" />
+    <Button
+        android:id = "@+id/choicereminder"
+        android:textColor="#Bdf"
+    	android:background="#d44"
+    	android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Choice Reminder"
+        
+        />
+
+        <Button
+        android:id = "@+id/sendfeed"
+        android:textColor="#Bdf"
+    	android:background="#d44"
+    	android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Feedback"
+        
+        />
+        
+         <Button
+        android:id = "@+id/viewfeed"
+          android:textColor="#Bdf"
+    	android:background="#d44"
+    	android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Feedback"
+        
+        />
+</LinearLayout>
