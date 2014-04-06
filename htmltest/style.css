@@ -1,0 +1,2263 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+
+a
+{
+text-decoration:none;	
+}
+
+
+body
+{
+background:#e4e8ee;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+#headerimage
+{
+background:url(images/biometricscreen.jpg);
+
+}
+
+#headerblock
+{
+position:absolute;
+background:#672221;
+top:15%;
+
+min-height:10%;
+height:1%;
+padding:5%;
+}
+
+li,li a
+{
+list-style:none;	
+width : 7%;
+color:#bfbfbf;
+float:left;
+margin-left:.5%;
+font-size:1em;
+height:7%;
+padding:6% 1% 7% 1%;
+margin-top:-1.6%;
+}
+li:hover
+{
+background:#d74340 url(images/downarrow.png) no-repeat 50% 70%;
+}
+table { border-collapse:collapse; font-size:16px; }
+#getbetter
+{
+padding:3% 3% .1% 30%;font-size:38px;color:#fff;	
+}
+#niceads
+{
+padding:0% 3% 0% 30%;margin-top:-.5%;font-size:26px;color:#9c9c9d;	
+}
+.uptopbar
+{
+padding:2%;color:#fff;font-size:12px;
+}
+
+td
+{
+padding:3%;
+
+
+}
+
+td:nth-child(2)
+{
+	width : 70%;
+	color:#787b81;
+	padding-left:5%;
+
+
+}
+.dateheader
+{
+background:#d74340;	
+padding:5%;
+width:20%;
+color:#fff;
+letter-spacing:-2px;
+
+}
+.blackheader
+{
+
+	background:#262729;	
+
+	padding-bottom:5%;
+	border-bottom:solid thick #cb413e;
+}
+.columndiv-3
+{
+
+	padding-bottom:10%;
+	background:#fff;
+	height:400px;
+	margin-bottom:2%;
+
+	
+}
+
+
+.columndiv-1
+{
+	padding:2%;
+	padding-bottom:10%;
+	background:#fff;
+	height:350px;
+	color:#7e7e7e;
+	margin-bottom:5%;
+	
+	
+}
+
+.columndiv-2
+{
+
+	margin-top:5%;
+	padding-bottom:10%;
+	background:#262729;
+	height:420px;
+	padding:2%;
+	color:#fff;
+	
+}
+	
+
+.blackheadertop
+{
+	background:#262729;	
+	border-left:solid thick #cb413e;
+	padding:5% 5% 5% 5%;
+	margin-bottom:5%;
+	color:#FFF;
+
+}
+.redblank
+{
+	background:#d74846;
+	height:50%;		
+}
+
+.leftredblank
+{
+	background:#d74846;
+	height:35%;		
+}
+
+.lefttitle
+{
+		border-bottom:thin solid #4b4b4d;	
+		padding:1%;
+		margin:8% 3%;
+}
+.leftdesc
+{
+
+		padding:1%;
+		margin:8% 3%;
+}
+.midnames
+{
+	border-bottom:thin solid #4b4b4d;	
+	padding:1%;
+	color:#fff;
+	margin:8% 3%;
+	font-size:22px;
+}
+
+.middesc
+{
+
+	padding:1%;
+	color:#fff;
+		margin:8% 3%;
+}
+.info
+{
+	background:#d74340;
+	padding:3%;
+	border-radius:7%;
+	text-decoration:none;
+	color:#fff;
+	margin:2%;
+
+}
+#bottombox
+{
+clear:both;	
+background:#262729;margin:0px auto; 
+height:400px;
+width:85%;
+padding:.1% 0% .1% 10%;
+color:white;
+font-size:12px;
+}
+.bottomheader
+{
+	background:#d74340;
+	padding:5% 20% 5% 5%;
+
+		
+}
+#upperbg
+{
+
+
+width:100%;
+height:250px;
+background:#fff;
+padding-top:.0018%;
+margin-bottom:2%;
+
+}
+
+#searchbar
+{
+background: #2f3133; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #2f3133 2%, #252729 99%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(2%,#2f3133), color-stop(99%,#252729)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #2f3133 2%,#252729 99%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #2f3133 2%,#252729 99%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #2f3133 2%,#252729 99%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #2f3133 2%,#252729 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f3133', endColorstr='#252729',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+height:40px;
+width:100%;
+
+}
+#contentBox
+{
+background:#e4e8ee;
+margin-left:11%; 
+width:88%	
+
+}
+#imageslide
+{
+background: #ad3e38; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ad3e38 2%, #d04644 99%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(2%,#ad3e38), color-stop(99%,#d04644)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ad3e38 2%,#d04644 99%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ad3e38 2%,#d04644 99%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ad3e38 2%,#d04644 99%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ad3e38 2%,#d04644 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad3e38', endColorstr='#d04644',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding:1%;
+	height:529px;
+	margin-top:-5%;
+	clear:both;
+}
+	/* slidejs css */
+ #imageslide .slidesjs-navigation {
+      margin-top:5px;
+    }
+	/* */
+	
+	  a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+	display:none;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;  display:none;
+    }
+	/* slidejs css */	
+	.left {
+    float:left;
+}
+.rounded {
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+.wrap {
+    position:relative;
+    padding:5px 6px 6px 7px; /* readjust in jsfiddle*/
+
+
+    overflow:hidden;
+}
+.search {
+    width:360px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:8px 5px 8px 30px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	color:#fff;
+}
+.go {
+
+}
+.go span {
+    display:block;
+    width:64px; height:28px;
+ 	color:#fff;
+}
+
+.searchcol
+{
+border-right:solid thin #2e3032;float:left;width:14%;	
+}
+
+.imgcover
+{
+height:100%;width:100%;margin:0 auto;background-size:cover;	
+}
+.floater
+{
+background:#672322;height:150px;width:400px;margin:12%;padding:1%;	
+}
+.textfloat
+{
+color:#fff;font-size:36px;	letter-spacing:-1px;
+}
+.descfloat
+{
+color:#d8cccc;font-size:16px;margin-bottom:5%; letter-spacing:1px;	
+}
+.learn
+{
+background:#5d5d5d;padding:3%;text-decoration:none;color:#fff;	
+}
+.learnarrow
+{
+background:#424242;padding:3%;text-decoration:none;color:#fff;	
+}
+#upcol1-desc
+{
+color:#fff;margin:5% 1% 0% 3%;	
+}
+.up-coldesc
+{
+color:#cacaca;margin:5% 1% 0% 3%;	
+}
+.up-coltitle
+{
+color:#ababab;padding:5% 0% 0% 2%;border-bottom:#e3e3e3 solid thin;	
+}
+.upcolumns
+{
+float:left; margin:1.2% 2%; width:20%;height:100%;	
+}
+.columndivs
+{
+float:left; margin:2%;width:28%	
+}
+.columntitle3
+{
+color:#7e7e7e;padding:1% 6%;letter-spacing:-1px;	
+}
+.columndesc3
+{
+color:#a5a5a5;padding:1% 6%;font-size:12px;	
+}
+.columnbottom
+{
+	float:left; margin:2%;width:28%
+}
+		
+#uppercolumns
+{
+margin-left:10%;height:290px;background:#fff;padding:1%;	
+}
+#upcolumn1
+{
+float:left; margin:2%;margin-top:1.3%; width:20%;height:100%;background:#d74846;	
+}
+#col1-title
+{
+background:#000;color:white;padding:5% 0% 10% 10%;margin-top:35%;	
+}
+#divtextbg
+{
+background:url(images/bg.png);height:95%;background-size:cover;width:80%;margin:2% 0% -3% 13%;border-left:#d74340 solid thick;	
+}
+#fitspan
+{
+color:#fff;background:#d74340;border-radius:50%;padding:6% 10%;font-size:3em;float:left;margin-right:3%;	
+}
+#fitheaderspan
+{
+color:#fff;background:#d74340;border-radius:50%;padding:1% 1.5%;font-size:2em;float:left;margin-right:3%;margin-top:4.6%;	
+}
+#headerbar
+{
+clear:both;margin-left:13%;height:150px;margin-top:-3%;
+
+}
+#meettrain
+{
+background:#d74340;padding:3%;text-decoration:none;color:#fff;	
+}
+#meetarrow
+{
+background:#9f322f;padding:3%;text-decoration:none;color:#fff;	
+}
+#fitnesstitle
+{
+float:left;margin-right:5%;letter-spacing:-.5px;color:#aeaeae;margin-top:4.6%;	
+}
+#meet
+{
+margin:5% 30%;
+}
+#searchcol1
+{
+width:15%;
+float:left;
+}
+
+
+
+@media all and (max-height: 768px) and (max-width: 1024px)
+{
+		#imageslide
+	{
+		height:389px;
+		margin-top:-8%;
+
+	}
+		#upperbg
+	{
+	width:100%;
+	height:320px;	
+	margin-top:10%;
+	}
+	.search 
+	{
+    width:210px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 25px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	color:#fff;
+	}
+	.dateheader
+{
+background:#d74340;	
+padding:5%;
+width:23%;
+color:#fff;
+letter-spacing:-2px;
+
+}
+	li
+	{
+		font-size:11px;	
+		width:6%;		
+	}
+	table
+	{
+	font-size:10px;	
+	}
+	
+}
+
+@media all and (max-height: 1080px) and (max-width: 1900px)
+{
+
+		#upperbg
+	{
+	width:100%;
+	height:320px;	
+	margin-top:0%;
+	}
+	.search 
+	{
+    width:160px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 25px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	color:#fff;
+	}
+	#bottombox
+{
+clear:both;	
+background:#262729;margin:0px auto; 
+height:450px;
+width:85%;
+padding:.1% 0% .1% 10%;
+color:white;
+font-size:12px;
+}
+table { font-size:15px;}
+	#imageslide
+	{
+		height:409px;
+		margin-top:-5%;
+	}
+}
+
+
+@media all and (max-height: 600px) and (max-width: 1200px)
+{
+	ul
+{
+	float:left;
+	width:100%;	
+}
+	table { font-size:12px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:12px;	
+	}
+	#imageslide
+	{
+		height:309px;
+		margin-top:-5%;
+	}
+	.search 
+	{
+    width:160px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 20px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	#searchcol1
+	{
+	width:1%;	
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20%;
+		
+	}
+	li
+	{
+		font-size:12px;	
+		width:14%;		
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2%;width:42%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3%; width:42%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3%; width:42%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:280px;	
+	margin-top:40%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:13px;	
+	}
+	#meetarrow
+	{
+		font-size:13px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+		.textfloat
+{
+color:#fff;font-size:12px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:11px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:11px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:11px;	
+}
+
+.floater
+{
+background:#672322;height:80px;width:200px;margin:10%;padding:1%;	
+}	
+	.columnbottom
+{
+	width:40%;
+	float:left;	
+}
+li:hover
+{
+background-size:11px;
+}
+}
+@media all and (max-height: 1200px) and (max-width: 640px)
+{
+	ul
+{
+	float:left;
+	width:100%;	
+}
+	table { font-size:12px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:11px;	
+	}
+	#imageslide
+	{
+		height:229px;
+		margin-top:-5%;
+	}	
+	.search 
+	{
+    width:160px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 10px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	#searchcol1
+	{
+	width:1%;	
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20%;		
+	}
+	li
+	{
+		font-size:12px;	
+		width:15%;		
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2% 6%;width:72%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3% 6%; width:72%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3% 6%; width:72%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:260px;	
+	margin-top:165%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:13px;	
+	}
+	#meetarrow
+	{
+		font-size:13px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+		.textfloat
+{
+color:#fff;font-size:12px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:12px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:11px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:11px;	
+}
+
+.floater
+{
+background:#672322;height:80px;width:200px;margin:8%;padding:1%;	
+}
+	
+	.columnbottom
+{
+	width:72%;
+	float:left;	
+	margin:3% 6%;
+}
+li:hover
+{
+background-size:11px;
+}
+	#bottombox
+{
+height:750px;	
+}
+}
+@media all and (max-height: 480px) and (max-width: 800px)
+{
+	ul
+{
+	float:left;
+	width:100%;	
+}
+	table { font-size:10px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:12px;	
+	}
+	#imageslide
+	{
+		height:309px;
+		margin-top:-5%;
+	}
+	.search 
+	{
+    width:160px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 20px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	#searchcol1
+	{
+	width:1%;	
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20%;		
+	}
+	
+	#upcol1-desc
+{
+color:#fff;margin:2% 1% 0% 3%;	
+}
+	li
+	{
+		font-size:12px;	
+		width:14%;		
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2%;width:41%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3%; width:43%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3%; width:43%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:280px;	
+	margin-top:40%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:13px;	
+	}
+	#meetarrow
+	{
+		font-size:13px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+		.textfloat
+{
+color:#fff;font-size:12px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:10px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:10px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:10px;	
+}
+
+.floater
+{
+background:#672322;height:90px;width:200px;margin:10%;padding:1%;	
+}	
+	.columnbottom
+{
+	width:42%;
+	float:left;	
+}
+li:hover
+{
+background-size:8px;
+}
+}
+@media all and (max-height: 800px) and (max-width: 480px)
+{
+	ul
+{
+	float:left;
+	width:100%;	
+}
+	table { font-size:10px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:8px;	
+	}
+	#imageslide
+	{
+		height:179px;
+		margin-top:-5%;
+	}
+	.search 
+	{
+    width:110px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 20px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	#searchcol1
+	{
+	width:1%;	
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20%;		
+	}
+	li
+	{
+		font-size:12px;	
+		width:15%;		
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2% 8%;width:72%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3% 8%; width:72%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3% 8%; width:72%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:280px;	
+	margin-top:200%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:13px;	
+	}
+	#meetarrow
+	{
+		font-size:13px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+		.textfloat
+{
+color:#fff;font-size:12px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:9px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+
+.floater
+{
+background:#672322;height:70px;width:200px;margin:10%;padding:1%;	
+}
+	
+	.columnbottom
+{
+	width:70%;
+	float:left;	
+}
+li:hover
+{
+background-size:8px;
+}
+	#bottombox
+{
+height:750px;	
+}
+}
+
+
+
+
+@media all and (max-height: 480px) and (max-width: 720px)
+{
+	#uppercolumns
+{
+margin-left:10%;height:290px;background:#fff;padding:1%;	
+background-size:500px;
+}
+	ul
+{
+	float:left;
+	width:100%;	
+}
+	table { font-size:10px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:8px;	
+	}
+	#imageslide
+	{
+		height:279px;
+		margin-top:-5%;
+	}
+.search 
+	{
+    width:160px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 20px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	color:#fff;
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:14%;	
+	}
+	li
+	{
+		font-size:12px;	
+		width:11%;		
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2%;width:42%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3%; width:42%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3%; width:42%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:280px;	
+	margin-top:60%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:13px;	
+	}
+	#meetarrow
+	{
+		font-size:13px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+	.floater
+{
+background:#672322;height:80px;width:200px;margin:15%;padding:1%;	
+}
+
+}
+
+
+@media all and (max-height: 320px) and (max-width: 480px)
+{
+	li:hover
+{
+
+background-size:12px;
+}
+#bottombox
+{
+height:670px;
+width:85%;
+}
+.columnbottom
+{
+	width:70%;
+	float:left;	
+	margin:3% 12%;
+}
+	table { font-size:10px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:7px;	
+	}
+	#imageslide
+	{
+		height:179px;
+		margin-top:-5%;
+	}
+	.search 
+	{
+    width:110px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 10px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	#searchcol1
+	{
+		width:1%;
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:18%;	
+	}
+	li
+	{
+		font-size:10px;			
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2% 9%;width:70%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3% 9%; width:70%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3% 9%; width:70%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:280px;	
+	margin-top:200%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:13px;	
+	}
+	#meetarrow
+	{
+		font-size:13px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+	ul
+{
+	float:left;
+	width:100%;
+		
+}
+	li
+	{
+
+		font-size:10px;	
+		width:14%;			
+	}
+	
+		.textfloat
+{
+color:#fff;font-size:12px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:9px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+.floater
+{
+	height:70px;
+	width:200px;
+	padding:2%;	
+}	
+		li:hover
+{
+background-size:8px;
+}
+}
+
+
+@media all and (max-height: 480px) and (max-width: 320px)
+{
+	table { font-size:10px;}
+	#niceads
+	{
+		font-size:12px;
+	}
+	#getbetter
+	{
+		font-size:16px;
+	}
+	.uptopbar
+	{
+		font-size:8px;	
+	}
+	#imageslide
+	{
+		height:119px;
+		margin-top:-5%;
+	}
+		#searchcol1
+	{
+	width:.01%;
+	}	
+	.search 
+	{
+    width:70px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:1px 1px 2px 10px;
+	
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:16px;
+	color:#fff;
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20.2%;	
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+	.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2% 5%;width:88%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3% 5%; width:80%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3% 5%; width:80%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:220px;	
+	margin-top:305%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:10px;	
+	}
+	#meetarrow
+	{
+		font-size:10px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}	
+	.textfloat
+{
+color:#fff;font-size:12px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:9px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+.floater
+{
+background:#672322;height:70px;width:200px;margin:5%;padding:1.5%;	
+}
+	#bottombox
+{
+clear:both;	
+background:#262729;margin:0px auto; 
+height:720px;
+width:85%;
+padding:.1% 0% .1% 10%;
+color:white;
+font-size:12px;
+}
+.columnbottom
+{
+	width:80%;
+	float:left;	
+}
+	#fitheaderspan
+{
+color:#fff;background:#d74340;border-radius:50%;padding:1% 1.5%;font-size:2em;float:left;margin-right:1%;	
+}
+ul
+{
+	float:left;
+	width:100%;	
+}
+	li
+	{
+		margin-top:5%;
+		font-size:9px;	
+		width:20%;		
+	}
+li:hover
+{
+background-size:8px;
+}
+}
+
+@media all and (max-height: 384px) and (max-width: 600px)
+{
+	ul
+{
+	float:left;
+	width:100%;	
+}
+	table { font-size:12px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:11px;	
+	}
+	#imageslide
+	{
+		height:219px;
+		margin-top:-5%;
+	}
+	.search 
+	{
+    width:160px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 20px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	#searchcol1
+	{
+	width:1%;	
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20%;
+		
+	}
+	li
+	{
+		font-size:12px;	
+		width:14%;		
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2% 6%;width:72%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3% 6%; width:72%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3% 6%; width:72%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:280px;	
+	margin-top:175%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:13px;	
+	}
+	#meetarrow
+	{
+		font-size:13px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+		.textfloat
+{
+color:#fff;font-size:12px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:11px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:11px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:11px;	
+}
+
+.floater
+{
+background:#672322;height:80px;width:200px;margin:10%;padding:1%;	
+}	
+	.columnbottom
+{
+	width:40%;
+	float:left;	
+}
+li:hover
+{
+background-size:11px;
+}
+	#bottombox
+{
+	height:790px;
+}
+}
+@media all and (max-height: 600px) and (max-width: 384px)
+{
+	ul
+{
+	float:left;
+	width:100%;	
+}
+	table { font-size:12px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:8px;	
+	}
+	#imageslide
+	{
+		height:139px;
+		margin-top:-5%;
+	}	
+	.search 
+	{
+    width:160px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 10px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	#searchcol1
+	{
+	width:1%;	
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20%;		
+	}
+	li
+	{
+		font-size:8px;	
+		width:14%;		
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2% 6%;width:72%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3% 6%; width:72%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3% 6%; width:72%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:260px;	
+	margin-top:305%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:12px;	
+	}
+	#meetarrow
+	{
+		font-size:12px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+		.textfloat
+{
+color:#fff;font-size:10px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:8px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+
+.floater
+{
+background:#672322;height:55px;width:150px;margin:8%;padding:1%;	
+}
+	
+	.columnbottom
+{
+	width:72%;
+	float:left;	
+	margin:3% 6%;
+}
+li:hover
+{
+background-size:11px;
+}
+	#bottombox
+{
+height:750px;	
+}
+}
+
+
+@media all and (max-height: 320px) and (max-width: 568px)
+{
+	ul
+{
+	float:left;
+	width:100%;	
+}
+	table { font-size:12px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:11px;	
+	}
+	#imageslide
+	{
+		height:219px;
+		margin-top:-5%;
+	}
+	.search 
+	{
+    width:160px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 20px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	#searchcol1
+	{
+	width:1%;	
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20%;
+		
+	}
+	li
+	{
+		font-size:12px;	
+		width:14%;		
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2% 6%;width:72%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3% 6%; width:72%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3% 6%; width:72%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:280px;	
+	margin-top:175%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:13px;	
+	}
+	#meetarrow
+	{
+		font-size:13px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+		.textfloat
+{
+color:#fff;font-size:12px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:11px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:11px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:11px;	
+}
+
+.floater
+{
+background:#672322;height:80px;width:200px;margin:10%;padding:1%;	
+}	
+	.columnbottom
+{
+	width:40%;
+	float:left;	
+}
+li:hover
+{
+background-size:11px;
+}
+	#bottombox
+{
+	height:790px;
+}
+}
+@media all and (max-height: 568px) and (max-width: 320px)
+{
+	ul
+{
+	float:left;
+	width:100%;	
+}
+	table { font-size:12px;}
+	#niceads
+	{
+		font-size:16px;
+	}
+	#getbetter
+	{
+		font-size:20px;
+	}
+	.uptopbar
+	{
+		font-size:8px;	
+	}
+	#imageslide
+	{
+		height:129px;
+		margin-top:-5%;
+	}	
+	.search 
+	{
+    width:160px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:6px 3px 6px 10px;
+
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	#searchcol1
+	{
+	width:1%;	
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20%;		
+	}
+	li
+	{
+		font-size:8px;	
+		width:14%;		
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+		.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2% 6%;width:72%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3% 6%; width:72%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3% 6%; width:72%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:260px;	
+	margin-top:305%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:12px;	
+	}
+	#meetarrow
+	{
+		font-size:12px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+		.textfloat
+{
+color:#fff;font-size:10px;	
+}
+.descfloat
+{
+color:#d8cccc;font-size:8px;margin-bottom:1%;	
+}
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:8px;	
+}
+
+.floater
+{
+background:#672322;height:55px;width:150px;margin:8%;padding:1%;	
+}
+	
+	.columnbottom
+{
+	width:72%;
+	float:left;	
+	margin:3% 6%;
+}
+li:hover
+{
+background-size:11px;
+}
+	#bottombox
+{
+height:750px;	
+}
+}
+
+
+
+
+
+@media all and (max-height: 240px) and (max-width: 320px)
+{
+		li:hover
+{
+background-size:8px;
+}
+	table { font-size:10px;}
+	#niceads
+	{
+		font-size:8px;
+	}
+	#getbetter
+	{
+		font-size:12px;
+	}
+	.uptopbar
+	{
+		
+		font-size:6px;	
+	}
+	#imageslide
+	{
+		height:99px;
+		margin-top:-5%;
+	}
+
+		#searchcol1
+	{
+	width:.01%;
+	}
+	
+	.search 
+	{
+    width:50px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:1px 1px 2px 15px;
+	
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20.2%;	
+	}
+	#contact
+	{
+	margin-left:5%;	
+	width:15%;	
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+	.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2%;width:88%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3%; width:80%;	
+	}
+	#upcolumn1
+	{
+		float:left; margin:3%; width:80%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:125px;	
+	margin-top:380%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:8px;	
+	}
+	#meetarrow
+	{
+		font-size:8px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+	
+		#bottombox
+{
+clear:both;	
+background:#262729;margin:0px auto; 
+height:750px;
+width:85%;
+padding:.1% 0% .1% 10%;
+color:white;
+font-size:12px;
+}
+.columnbottom
+{
+	width:80%;
+	float:left;	
+}
+	#fitheaderspan
+{
+color:#fff;background:#d74340;border-radius:50%;padding:1% 1.5%;font-size:1.5em;float:left;margin-right:1%;	
+}
+ul
+{
+	float:left;
+	width:100%;	
+}
+	li
+	{
+		margin-top:5%;
+		font-size:8px;	
+		width:20%;		
+	}
+		.textfloat
+{
+color:#fff;font-size:8px;	
+}
+		.descfloat
+{
+font-size:6px;	
+}
+
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:6px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:6px;	
+}
+
+	.floater
+	{
+		height:46px;
+		width:100px;	
+	}
+}
+
+
+   @media all and (max-height: 320px) and (max-width: 240px)
+{
+		li:hover
+{
+background-size:8px;
+}
+	table { font-size:10px;}
+	#niceads
+	{
+		font-size:8px;
+	}
+	#getbetter
+	{
+		font-size:12px;
+	}
+	.uptopbar
+	{
+		
+		font-size:6px;	
+	}
+	#imageslide
+	{
+		height:99px;
+		margin-top:-5%;
+	}
+
+		#searchcol1
+	{
+	width:.01%;
+	}
+	
+	.search 
+	{
+    width:50px;
+    position:relative; top:2px; /* readujst in jsfiddle */
+    padding:1px 1px 2px 15px;
+	
+    background:#3e4040 url(images/magni.png) left center no-repeat;
+	background-size:20px;
+	color:#fff;
+	}
+	.searchcol
+	{
+	border-right:solid thin #2e3032;float:left;width:20.2%;	
+	}
+	#contact
+	{
+	margin-left:5%;	
+	width:15%;	
+	}
+		#fitnesstitle
+	{
+		font-size:9px;	
+	}
+		.dateheader
+	{
+		font-size:18px;	
+	}
+	.up-coldesc
+	{
+		font-size:12px;
+	}
+	#fitspan
+	{
+		font-size:2em;	
+	}
+	.columndivs
+	{
+	float:left; margin:2%;width:88%	
+	}
+	.upcolumns
+	{
+	float:left; margin:3%; width:80%;
+	}
+	#upcolumn1
+	{
+		float:left; margin:3%; width:80%;		
+	}
+	#upperbg
+	{
+	width:100%;
+	height:125px;	
+	margin-top:480%;
+	}
+	#meettrain
+	{
+	background:#d74340;padding:3%;text-decoration:none;color:#fff;font-size:8px;	
+	}
+	#meetarrow
+	{
+		font-size:8px;	
+	}
+	#meet
+	{
+	margin:5% 0% 5% 30%;
+	}
+	
+		#bottombox
+{
+clear:both;	
+background:#262729;margin:0px auto; 
+height:750px;
+width:85%;
+padding:.1% 0% .1% 10%;
+color:white;
+font-size:12px;
+}
+.columnbottom
+{
+	width:80%;
+	float:left;	
+}
+	#fitheaderspan
+{
+color:#fff;background:#d74340;border-radius:50%;padding:1% 1.5%;font-size:1.5em;float:left;margin-right:1%;	
+}
+ul
+{
+	float:left;
+	width:100%;	
+}
+	li
+	{
+		margin-top:5%;
+		font-size:8px;	
+		width:20%;		
+	}
+		.textfloat
+{
+color:#fff;font-size:8px;	
+}
+		.descfloat
+{
+font-size:6px;	
+}
+
+.learn
+{
+background:#5d5d5d;padding:2%;text-decoration:none;color:#fff;font-size:6px;	
+}
+.learnarrow
+{
+background:#424242;padding:2%;text-decoration:none;color:#fff;font-size:6px;	
+}
+
+	.floater
+	{
+		height:46px;
+		width:100px;	
+	}
+}
+
+    
+
+li:hover,li a:hover
+{
+	padding:6% 1% 7% 1%;
+	
+	color:#fff;
+
+}
